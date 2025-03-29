@@ -23,8 +23,9 @@ cpp-build-tools是一个用于编译C++项目的工具，它依赖cmake、ninja�
 ```bash
 cd <project_dir>
 
-# 配置cmake项目
-./cpp-build-tools/script/config.sh
+# 配置cmake项目 Debug 或者 Release 版本
+./cpp-build-tools/script/config.sh Debug
+./cpp-build-tools/script/config.sh Release
 
 # 编译 Debug 版本 或者 Release 版本
 ./cpp-build-tools/script/build.sh Debug
