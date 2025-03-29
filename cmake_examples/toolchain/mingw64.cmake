@@ -1,6 +1,3 @@
-# set(CMAKE_SYSTEM_NAME               Generic) # Generic 裸机
-# set(CMAKE_SYSTEM_PROCESSOR          arm) # 目标 CPU 架构
-
 # set(CMAKE_C_COMPILER_FORCED TRUE) # 跳过 CMake 的编译器检测（避免自动检测失败或耗时）
 # set(CMAKE_CXX_COMPILER_FORCED TRUE)
 # set(CMAKE_C_COMPILER_ID GNU) # 显式声明编译器为 GNU GCC
